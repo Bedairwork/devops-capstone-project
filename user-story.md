@@ -62,4 +62,6 @@ Given the Docker image named accounts has been created
 When I use `docker run accounts`
 Then I should see the accounts service running in Docker
 
+
+
     
