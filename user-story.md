@@ -42,4 +42,8 @@ And the badge should show that the build is passing
     When a REST API request is made
     Then secure headers and a CORS policy should be returned
     ```
+
+    Given the site is secured
+When a REST API request is made
+Then secure headers and a CORS policy should be returned
     
